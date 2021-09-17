@@ -6,8 +6,9 @@ bind_addr = "0.0.0.0"
 server {
   # license_path is required as of Nomad v1.1.1+
   #license_path = "/etc/nomad.d/nomad.hcl"
-  enabled          = true
-  bootstrap_expect = 1
+  enabled            = true
+  bootstrap_expect   = 1
+  enabled_schedulers = ["batch", "service"]
   default_scheduler_config {
     scheduler_algorithm = "binpack"
 

@@ -130,7 +130,7 @@ c.JupyterHub.base_url = '/jupyter/'
 #
 #  This is the address on which the proxy will bind. Sets protocol, ip, base_url
 #  Default: 'http://:8000'
-# c.JupyterHub.bind_url = 'http://:8000'
+#c.JupyterHub.bind_url = 'http://:8010/jupyter'
 
 # Whether to shutdown the proxy when the Hub shuts down.
 #
@@ -522,7 +522,7 @@ c.JupyterHub.base_url = '/jupyter/'
 #  .. deprecated: 0.9
 #      Use JupyterHub.bind_url
 #  Default: 8000
-c.JupyterHub.port = 8000
+c.JupyterHub.port = 8010
 
 # DEPRECATED since version 0.8 : Use ConfigurableHTTPProxy.api_url
 #  Default: ''
