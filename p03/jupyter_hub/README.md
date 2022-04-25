@@ -8,3 +8,5 @@
 firewall-cmd --zone=public --permanent --add-port=8010/tcp
 firewall-cmd --reload
 ```
+
+4. Run jupyter.sh as root
